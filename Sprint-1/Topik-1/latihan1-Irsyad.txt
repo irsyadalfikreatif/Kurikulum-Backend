@@ -1,0 +1,33 @@
+JIKA User menekan tombol Italyc
+	Tampilan Huruf akan menjadi miring
+LAINNYA
+	Tampilan Huruf menjadi normal kembali
+AKHIR-JIKA
+
+JIKA User menekan tombol Bold
+	Tampilan Huruf akan menjadi tebal
+LAINNYA
+	Tampilan Huruf akan menjadi normal kembali
+AKHIR JIKA
+
+KETIKA User menekan tombol Save
+	Tampilkan pilihan penyimpanan file yang akan disimpan
+LAINNYA
+	Maka dokumen akan otomatis tersimpan
+AKHIR-KETIKA
+
+JIKA Penulisan dokumen sudah sampai pada akhir baris
+	MAKA akan automatis pindah ke lembar berikutnya
+AKHIR-JIKA
+
+JIKA User menekan tombol Copy 
+	MAKA Text akan automatis tersalin kedalam Clipboard
+AKHIR-JIKA
+
+KETIKA User menekan tombol Paste
+	MAKA Perangkat akan menampilkan Text yang tersalin kedalam Clipboard
+AKHIR-KETIKA
+
+JIKA Pengguna menekan tombol Justify
+	MAKA Text akan rata kanan kiri
+AKHIR-JIKA
