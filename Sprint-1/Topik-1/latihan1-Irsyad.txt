@@ -1,7 +1,9 @@
+SET Microsoft Word tampil di desktop
+
 JIKA User menekan tombol Italyc
 	Tampilan Huruf akan menjadi miring
 LAINNYA
-	Tampilan Huruf menjadi normal kembali
+	Tampilan Huruf menjadi normal kemabali
 AKHIR-JIKA
 
 JIKA User menekan tombol Bold
