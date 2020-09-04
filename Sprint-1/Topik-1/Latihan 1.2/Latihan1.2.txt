@@ -1,0 +1,1 @@
+1. perintah 'which' berfungsi untuk menunjukkan letak lokasi dari suatu perintah CLI (Command Line Interface)

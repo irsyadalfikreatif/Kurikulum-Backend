@@ -1,0 +1,31 @@
+SET harga barang yang dibeli
+SET jumlah barang yang dibeli
+SET stok barang
+
+JIKA jumlah barang yang mau dibeli>stok barang
+	TAMPILKAN stok kosong
+AKHIR-JIKA
+
+JIKA stok barang>jumlah barang yang mau dibeli
+	TAMPILKAN stok tersedia
+AKHIR-JIKA
+
+JIKA jumlah barang>1
+	MAKA total harga x jumlah barang
+AKHIR-JIKA
+
+JIKA stok barang tidak ada
+	MAKA harga = 0
+AKHIR-JIKA
+
+UNTUK setiap barang
+	TAMPILKAN Harga dari setiap barang
+AKHIR-UNTUK
+
+UNTUK total harga
+	DIHITUNG dari barang apa saja yang dibeli x  berapa jumlah dari setiap barang x harga barang
+AKHIR-UNTUK
+
+JIKA uang yang pembeli>jumlah Total harga
+	TAMPILKAN jumlah kembalian
+AKHIR-JIKA
