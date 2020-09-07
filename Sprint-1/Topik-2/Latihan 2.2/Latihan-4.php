@@ -1,0 +1,36 @@
+<?php
+$n0 = null;
+$n1 = 1;
+$n2 = 2;
+$n3 = 3;
+$n5 = 5;
+$n9 = 9;
+$n19 = 19;
+$R1 = (2*$n1)+2;
+$R2 = (2*$n2)+2;
+$R3 = (2*$n3)+2;
+$R5 = (2*$n5)+2;
+$R9 = (2*$n9)+2;
+$R19 = (2*$n19)+2;
+
+echo "Jika diketahui sebuah urutan 2,4,6,8,10 ... Maka tentukan urutan ke-5,9, dan 19 adalah..";
+echo "<br>" ;
+echo "Maka";
+echo "<br>" ;
+echo "R0 = 2; R1 = 4; R2 = 6 ..";
+echo "<br>" ;
+echo "R0 = a maka a = 2";
+echo "<br>" ;
+echo "R1 = 4 maka a + n.x = 4";
+echo "<br>" ;
+echo "2 + 1.x = 4 maka 2 + x = 4";
+echo "<br>" ;
+echo "x = 4 - 2 maka x = 2";
+echo "<br>" ;
+echo "Jadi nilai x = 2 maka bisa disimpulkan bahwa";
+echo "<br>" ;
+echo "R5 = 2n + 2 maka R5 =".$R5;
+echo "<br>" ;
+echo "R9 =".$R9;
+echo "<br>" ;
+echo "R19 =".$R19;
