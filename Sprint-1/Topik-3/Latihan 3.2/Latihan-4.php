@@ -7,5 +7,5 @@ for ($m = 1; $m <= 9; $m++) {
             echo "- ";
         }    
     }
-    echo "<br>";
+    echo "\n";
 }
