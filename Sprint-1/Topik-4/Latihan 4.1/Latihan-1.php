@@ -37,7 +37,7 @@ if (is_double($m)) {
 } else {
     $m = floor($m);
     $mm = round($m);
-    $median = ($nilai[$m] + $nilai[$mm] / 2);
+    $median = ($nilai[$m] + $nilai[$mm]) / 2;
 }
 
 echo "Median : ";
@@ -48,8 +48,8 @@ echo "\n";
 $val = array_count_values($nilai);
 arsort($val);
 foreach ($val as $k => $v) {
-    if ($v == max($v)) {
-        echo "Modus : " . $k . " Frekuensi : " . $val;
+    if ($v == max($val)) {
+        echo "Modus : " . $k . " Frekuensi : " . $v;
     }
 }
 
