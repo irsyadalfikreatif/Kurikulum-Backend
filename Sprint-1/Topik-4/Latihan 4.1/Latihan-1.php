@@ -1,17 +1,8 @@
 <?php
 
-// $nilai = [5, 9, 6, 7, 9, 8 , 10, 7, 8];
-// echo "Nilai : ";
-
-// foreach ($nilai as $key => $value) {
-//     echo $value . " ";
-// }
-
-
-// Input dinamis
 
 echo "Jumlah Nilai Yang Dimasukkan : ";
-$jumlah = trim(fgets(STDIN));
+$jumlah =(int) trim(fgets(STDIN));
 
 for ($a=1; $a <= $jumlah; $a++) { 
     echo "Nilai ke-".$a." : ";
