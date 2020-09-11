@@ -3,7 +3,7 @@
 echo '++++++++++++++++++++++++++++++'."\n";
 echo '||***Function Application***||'."\n";
 echo '++++++++++++++++++++++++++++++'."\n";
-echo '1. Segitiga'. "\n". '2. Persegi Panjang'. "\n". '3. Jajar Genjang'."\n";
+echo '1. Segitiga'. "\n". '2. Lingkaran'. "\n". '3. Trapesium'."\n";
 echo "Mau Ngitung Apa, Bro?? ";
 $pilihan = (int) trim(fgets(STDIN));
 

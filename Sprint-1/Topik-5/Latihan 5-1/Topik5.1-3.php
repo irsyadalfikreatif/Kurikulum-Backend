@@ -1,6 +1,6 @@
 <?php
 function multiple($nilai){
-    foreach($nilai as $key => $valeue);{
+    foreach($nilai as $key => $value);{
         $nilai[$key]*=3;
     }
     print_r($nilai);
